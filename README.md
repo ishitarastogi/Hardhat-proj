@@ -35,4 +35,13 @@ module.exports = {
   }
 };
  ```
-
+# Hardhat compile
+```shell
+npx hardhat compile
+ ```
+# Hardhat deploy script
+//For local network
+```shell
+npx hardhat node
+npx hardhat run scripys/deploy.js --network localhost
+ ```
